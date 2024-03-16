@@ -5,13 +5,13 @@
 namespace DHT11 {
 
     export enum DHT11Type {
-        //% block="temperature(℃)" enumval=0
+        //% block="温度(℃)" enumval=0
         DHT11_temperature_C,
 
-        //% block="temperature(℉)" enumval=1
+        //% block="温度(℉)" enumval=1
         DHT11_temperature_F,
 
-        //% block="humidity(0~100)" enumval=2
+        //% block="湿度(0~100)" enumval=2
         DHT11_humidity,
     }
     let dht11Humidity = 0
@@ -21,7 +21,7 @@ namespace DHT11 {
      * get dht11 temperature and humidity Value
      * @param dht11pin describe parameter here, eg: DigitalPin.P15
      */
-    //% blockId="readdht11" block="value of dht11 %dht11type| at pin %dht11pin"
+    //% blockId="readdht11" block="获取%dht11type|在%dht11pin"
     //% weight=70 blockGap=8
     //% parts=DHT11 trackArgs=0
     export function dht11value(dht11type: DHT11Type, dht11pin: DigitalPin): number {
