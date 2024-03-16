@@ -1,7 +1,7 @@
 /**
  * Custom blocks
  */
-//% color=#ff7a4b icon="H" block="DHT11"
+//% weight=30 color=#ff7a4b icon="H" block="DHT11"
 namespace DHT11 {
 
     export enum DHT11Type {
