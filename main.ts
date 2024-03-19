@@ -18,7 +18,7 @@ namespace DHT11 {
     let dht11Temperature = 0
 
     /**
-     * get dht11 temperature and humidity Value
+     *获取温湿度值
      * @param dht11pin describe parameter here, eg: DigitalPin.P15
      */
     //% blockId="readdht11" block="获取%dht11type|在%dht11pin"
